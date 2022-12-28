@@ -52,6 +52,7 @@ main {
     height: 49px;
     border: 2px solid var(--purple);
     color: var(--purple);
+    font-weight: 600;
     margin-bottom: 16px;
     justify-content: center;
     align-items: center;
@@ -62,4 +63,8 @@ main {
     display: flex;
     width: 236px;
     justify-content: space-around;
+}
+
+.social > li {
+    height: 24px;
 }
